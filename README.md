@@ -21,7 +21,7 @@ The Bi-selective Encoding module is integrated with [OpenNMT](https://github.com
 3. Run ```python translate.py``` to generate the summaries.
 
 ## Notice
-1. If you are not familiar with Java or think the first two steps are time-consuming, you can directly train the **Bi-selective Encoding** model with the retrieved&reranked templates and data in [Google Disk](https://drive.google.com/file/d/1WtaDnpufPyqf8afFyfC13U_h56ars6CY/view?usp=sharing).
+1. If you are not familiar with Java or think the first two steps are time-consuming, you can directly train the **Bi-selective Encoding** module with the retrieved&reranked templates and data in [Google Disk](https://drive.google.com/file/d/1WtaDnpufPyqf8afFyfC13U_h56ars6CY/view?usp=sharing).
 2. I refactor my code for clearity and conciseness (rename the variables and class), but I don't have enough time to do a thorough test. If the code has some problems or you have any questions, please raise an issue, I will figure it out whenever I'm
 available.
 3. For personal communication related to BiSET, please contact me (```wangk73@mail2.sysu.edu.cn```).  
