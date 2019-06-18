@@ -1,6 +1,6 @@
 # BiSET: Bi-directional Selective Encoding with Template for Abstractive Summarization (ACL 2019)
 
-This paper contains three basic module: **Retrieve**, **FastRerank**, **Bi-selective Encoding**. The following is the usage. 
+This [paper](https://arxiv.org/abs/1906.05012) contains three basic module: **Retrieve**, **FastRerank**, **Bi-selective Encoding**. The following is the usage. 
 
 ## Retrieve
 The Retrieve module is based on [Apache Lucene](http://lucene.apache.org/), an open source search library. You should first download the core library from the website, and then build the java project. After that, you can index and search on the dataset by following steps:
