@@ -9,7 +9,7 @@ The Retrieve module is based on [Apache Lucene](http://lucene.apache.org/), an o
 3. Run ```Searcher.java``` to search for the candidates and generate the template index files.
 
 ## FastRerank
-The FastRerank module is implemented with pytorch, before run it, you should first prepare all the data (template index retrieved by **Retrieve** module and the raw dataset).
+The FastRerank module is implemented with pytorch, before run it, you should first prepare all the data (template index retrieved by Retrieve module and the raw dataset).
 1. Run ```python config.py --mode preprocess``` to preprocess the data.
 2. Run ```python config.py --mode train``` to train the model or ```python config.py --mode train --model modelname``` to finetune a model.  (eg. ```python config.py --mode train --model model_final.pkl```)
 3. Run ```python config.py --mode dev --model modelname``` to evaluate or test the model, and the template with highest score will be stored.
