@@ -16,7 +16,7 @@ The FastRerank module is implemented with pytorch, before run it, you should fir
 
 ## Bi-selective Encoding
 The Bi-selective Encoding module is integrated with [OpenNMT](https://github.com/OpenNMT/OpenNMT-py). Now it only has the bi-selective encoding layer, I will add other three interaction methods (concate, multi-head attention, DCN attention) later. You can directly train it end to end with the [data](https://drive.google.com/file/d/1WtaDnpufPyqf8afFyfC13U_h56ars6CY/view?usp=sharing) by following steps:
-1. Run ```python preprocess.py -share_vocab``` to prepare the data.
+1. Run ```python preprocess.py``` to prepare the data.
 2. Run ```python train.py``` to train the model.
 3. Run ```python translate.py``` to generate the summaries.
 
