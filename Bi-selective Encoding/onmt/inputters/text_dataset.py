@@ -57,7 +57,8 @@ class TextDataset(DatasetBase):
             examples_iter = (self._join_dicts(src, tgt,template) for src, tgt,template in
                              zip(src_examples_iter, tgt_examples_iter,template_iter))
         else:
-            examples_iter = src_examples_iter
+            examples_iter = (self._join_dicts(src, template) for src, template in
+                         zip(src_examples_iter, template_iter))
 
         if dynamic_dict:
             examples_iter = self._dynamic_dict(examples_iter)
